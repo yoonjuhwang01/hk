@@ -1359,6 +1359,21 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
 }
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 
 
 /* ===================================================================
@@ -1611,7 +1626,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-transition: all .3s;
     transition: all .3s;
     position: absolute;
-    right: 3.2rem;
+    right: 0rem;
     top: .6rem;
 }
 
