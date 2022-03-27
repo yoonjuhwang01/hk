@@ -904,7 +904,7 @@ input[type="button"] {
     line-height: 5.6rem;
     padding: 0 3.2rem;
     margin: 0 .4rem 1.6rem 0;
-    color: #000000;
+    color: #d3d3d3;
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
@@ -927,8 +927,8 @@ input[type="button"]:hover,
 input[type="submit"]:focus, 
 input[type="reset"]:focus, 
 input[type="button"]:focus {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #d3d3d3;
+    border-color: #d3d3d3;
     color: #ffffff;
     outline: 0;
 }
@@ -955,8 +955,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus, 
 input[type="reset"].btn--primary:focus, 
 input[type="button"].btn--primary:focus {
-    background: #000000;
-    border-color: #000000;
+    background: #0a42bb;
+    border-color: #0a42bb;
 }
 
 /* button modifiers
